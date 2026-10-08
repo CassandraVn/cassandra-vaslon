@@ -11,7 +11,7 @@ export function Hero() {
       </div>
       <div className="hero-side">
         <a
-          href="/CV_Cassandra-Vaslon.pdf"
+          href="./CV_Cassandra-Vaslon.pdf"
           download="CV_Cassandra-Vaslon.pdf"
           className="arch"
         >CV</a>
