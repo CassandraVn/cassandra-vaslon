@@ -7,7 +7,7 @@ export function Journey() {
     <section id="parcours"><div className="wrap">
       <div className="head"><b>03</b><span>Expériences</span></div>
       <div className="split">
-        <h2 className="black">Une alternance centrée sur le développement de bout en bout.</h2>
+        <h2 className="black">Des expériences centrées sur le développement de bout en bout.</h2>
         <ol className="tl">
           {jobs.map(([t, d, c, p]) => (
             <li key={t}><div className="row"><h3>{t}</h3><span>{d}</span></div><p className="place" style={{ fontSize: 14  }}>{c}</p><p className="mute" style={{ marginTop: 8 }}>{p}</p></li>

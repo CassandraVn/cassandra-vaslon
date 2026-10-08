@@ -6,7 +6,7 @@ export function Hero() {
         <div className="tag">Disponible pour missions techniques</div>
         <p className="red">Développeuse full-stack en Node.js et Angular.</p>
         <h1 className="black">Je conçois, code et déploie des applications web de A à Z.</h1>
-        <p className="lead">Anciennement apprentie conceptrice développeuse d'applications web à la Marine nationale de Brest, je cherche un poste où je pourrais mettre à profit mes connaissances et développer de nouvelles compétences.</p>
+        <p className="lead">Anciennement conceptrice développeuse d'applications web à la Marine nationale de Brest, je cherche un poste où je pourrais mettre à profit mes connaissances et développer de nouvelles compétences.</p>
         <a href="#parcours" className="btn">Voir mon parcours <ArrowUpRight size={18} /></a>
       </div>
       <div className="hero-side">
