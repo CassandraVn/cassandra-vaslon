@@ -10,7 +10,11 @@ export function Hero() {
         <a href="#parcours" className="btn">Voir mon parcours <ArrowUpRight size={18} /></a>
       </div>
       <div className="hero-side">
-        <div className="arch">CV</div>
+        <a
+          href="/CV_Cassandra-Vaslon.pdf"
+          download="CV_Cassandra-Vaslon.pdf"
+          className="arch"
+        >CV</a>
         <p className="left">Architecture, back-end, front-end, déploiement et maintenance.<br /><small style={{ color: "var(--ink)", letterSpacing: ".05em" }}>FRANCE · Bretagne </small></p>
       </div>
     </div></section>

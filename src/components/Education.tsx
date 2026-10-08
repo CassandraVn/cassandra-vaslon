@@ -6,10 +6,10 @@ const rows = [
 ];
 export function Education() {
   return (
-    <section style={{ background: "var(--paper)" }}><div className="wrap">
-      <div className="head"><b>05</b><span>Formation + certifications</span></div>
+    <section id="education" style={{ background: "var(--paper)" }}><div className="wrap">
+      <div className="head"><b>05</b><span>Formations</span></div>
       <div className="split">
-        <h2 className="black">Un parcours construit dans la pratique.</h2>
+        <h2 className="black">Des études où la pratique est reine.</h2>
         <ul className="edu">
           {rows.map(([t, s, y]) => <li key={t}><div><b>{t}</b><small className="mute">{s}</small></div><span className="mute">{y}</span></li>)}
         </ul>

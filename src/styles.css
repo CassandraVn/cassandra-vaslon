@@ -360,7 +360,7 @@ h2 {
 }
 
 .hero p.lead {
-  max-width: 46ch;
+  max-width: 900px;
 
   margin-bottom: 32px;
 
@@ -588,6 +588,11 @@ h2 {
    JOURNEY
    ============================== */
 
+.place {
+  color: var(--red);
+  margin-top: 10px;
+}
+
 .tl {
   display: grid;
   gap: 36px;
@@ -761,7 +766,7 @@ footer a {
 
 .contact .meta {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
 

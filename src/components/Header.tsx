@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const links = [
-  ["Projet", "#projet"],
-  ["Parcours", "#parcours"],
+  // TODO add back project when done
+  // ["Projet", "#projet"],
+  ["Expériences", "#parcours"],
   ["Compétences", "#competences"],
+  ["Formations", "#education"],
   ["Contact", "#contact"],
 ] as const;
 
