@@ -11,8 +11,8 @@ export function Hero() {
       </div>
       <div className="hero-side">
         <a
-          href="/CV__Cassandra-Vaslon.pdf"
-          download="CV__Cassandra-Vaslon.pdf"
+          href="/CV__Cassandra_Vaslon.pdf"
+          download="CV__Cassandra_Vaslon.pdf"
           className="arch"
         >CV</a>
         <p className="left">Architecture, back-end, front-end, déploiement et maintenance.<br /><small style={{ color: "var(--ink)", letterSpacing: ".05em" }}>FRANCE · Bretagne </small></p>
